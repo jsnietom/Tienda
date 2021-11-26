@@ -15,15 +15,13 @@ class MainActivity : AppCompatActivity() {
 
     fun startTimer() {
         object : CountDownTimer(3000, 1000) {
-            override fun onTick(millisUntilFinished: Long) {
-                TODO("Not yet implemented")
+            override fun onTick(p0: Long) {
+
             }
 
             override fun onFinish() {
                 val intent = Intent(applicationContext, PrincipalActivity::class.java).apply {}
                 startActivity(intent)
-
-
             }
         }.start()
     }
