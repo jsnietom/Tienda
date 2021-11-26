@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tienda">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.ui.activities.PrincipalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.ui.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
