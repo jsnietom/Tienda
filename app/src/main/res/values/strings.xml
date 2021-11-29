@@ -8,8 +8,9 @@
     <string name="prompt_telefono">Direccion</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Login</string>
     <string name="action_registro">Registrar</string>
+    <string name="action_guardar">Guardar</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome!"</string>
     <string name="invalid_username">Not a valid username</string>
@@ -19,5 +20,4 @@
     <string name="msg_1">"Bienvenido"</string>
     <string name="textHome">"Health Food"</string>
     <string name="textHome2">Esta aplicación fue desarrollada utilizando Kotlin. Contiene los elementos básicos que permitirán llevar al estudiante a comprender el desarrollo de apps, el manejo del ciclo de vida, el uso de APIs, la interacción con servicios en la nube, entre otros. Se espera que el estudiante este en capacidad al finalizar el curso de desarrollar un app con las habilidades aquí aprendidas.</string>
-
 </resources>
