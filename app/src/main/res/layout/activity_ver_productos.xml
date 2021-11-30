@@ -110,8 +110,8 @@
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="93dp"
-            android:layout_height="65dp"
+            android:layout_width="66dp"
+            android:layout_height="53dp"
             card_view:srcCompat="@drawable/userprofile" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
