@@ -77,7 +77,7 @@
         tools:ignore="Suspicious0dp" />
 
     <Button
-        android:id="@+id/registro"
+        android:id="@+id/registro_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
