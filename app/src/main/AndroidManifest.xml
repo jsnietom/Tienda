@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tienda">
         <activity
+            android:name=".view.ui.activities.PerfilUsuarioActivity"
+            android:exported="true" />
+        <activity
             android:name=".view.ui.activities.ConfirmacionRegistroActivity"
             android:exported="true" />
         <activity

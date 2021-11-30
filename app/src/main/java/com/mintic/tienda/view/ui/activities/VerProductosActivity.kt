@@ -16,5 +16,9 @@ class VerProductosActivity : AppCompatActivity() {
             val intent = Intent(this, OrdenCompraActivity::class.java)
             startActivity(intent)
         }
+        imageButton.setOnClickListener{
+            val intent = Intent(this, PerfilUsuarioActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
