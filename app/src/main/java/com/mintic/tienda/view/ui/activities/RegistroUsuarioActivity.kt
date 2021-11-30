@@ -12,7 +12,7 @@ class RegistroUsuarioActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro_usuario)
         registro_usuario.setOnClickListener{
-            val intent = Intent(this, VerProductosActivity::class.java)
+            val intent = Intent(this, ConfirmacionRegistroActivity::class.java)
             startActivity(intent)
         }
     }
