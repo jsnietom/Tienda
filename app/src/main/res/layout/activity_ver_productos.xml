@@ -33,11 +33,12 @@
             android:id="@+id/tvItemNameProduct"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Producto"
+            android:text="Tomates"
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:textSize="@dimen/sizeNameProduct"
             />
+
 
         <TextView
             android:id="@+id/tvItemPriceProduct"
@@ -47,6 +48,12 @@
             android:gravity="center_horizontal"
             android:textSize="@dimen/sizePriceProduct"
             />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cartp" />
 
         <ImageView
             android:id="@+id/ivItemProduct2"
@@ -73,6 +80,7 @@
             android:gravity="center_horizontal"
             android:textSize="@dimen/sizePriceProduct"
             />
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tienda">
         <activity
+            android:name=".view.ui.activities.OrdenCompraActivity"
+            android:exported="true" />
+        <activity
             android:name=".view.ui.activities.VerProductosActivity"
             android:exported="true" />
         <activity

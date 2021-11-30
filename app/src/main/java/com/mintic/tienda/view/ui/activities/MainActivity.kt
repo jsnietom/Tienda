@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                val intent = Intent(applicationContext, PrincipalActivity::class.java).apply {}
+                val intent = Intent(applicationContext, LoginActivity::class.java).apply {}
                 startActivity(intent)
             }
         }.start()
